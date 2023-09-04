@@ -13,7 +13,7 @@
     --thirdBackgroundColor: #f5f3fe;
 
     --primaryIconColor: #7e74f1;
-    --primaryIconColorHover: #5d51e8;
+    --primaryIconColorHover: #44749d;
 
     --sectionPadding: 6rem 0;
     --itemBorderRadius: 0,7rem;
@@ -26,6 +26,7 @@
 }
 
 body {
+    background: #a7dbd8;
     font-family: "Roboto",sans-serif;
 }
 h1,h2,h3,h4,h5,h6, strong{
@@ -62,14 +63,14 @@ a {
 
 .btn{
     padding: 1rem 1.5rem;
-    background:white;
+    background:#44749d;
     border: 1.5px solid var(--borderColor);
     cursor:pointer;
     transition: .2s ease-in-out;
 }
 
 .btn hover {
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    box-shadow: rgba(7, 44, 94, 0.04) 0px 3px 5px;
 }
 
 /* Titles */
@@ -288,6 +289,7 @@ border-radius: var(--itemBorderRadius);
 }
 
 .portfolio-tags{
+    ba
     display: flex;
     gap: 1rem;
     margin: 1rem 0;
